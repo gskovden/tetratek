@@ -1,0 +1,10 @@
+.footer__img {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__img {
+    justify-self: end;
+  }
+}

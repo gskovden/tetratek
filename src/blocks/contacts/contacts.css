@@ -1,0 +1,23 @@
+.contacts {
+  display: grid;
+  grid-template-areas: 
+  "title title"
+  "address map"
+  "form map";
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  min-height: calc(100vh - 50px);
+}
+
+@media screen and (max-width: 1160px) {
+  .contacts {
+    grid-template-areas: 
+    "title"
+    "address"
+    "map"
+    "form";
+    grid-template-columns: none;
+  }
+}

@@ -1,0 +1,12 @@
+.conclusions__img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .conclusions__img {
+    width: 70px;
+    height: 70px;
+  }
+}

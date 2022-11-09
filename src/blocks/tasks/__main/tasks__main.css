@@ -1,0 +1,33 @@
+.tasks__main {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+@media screen and (max-width: 1186px) {
+  .tasks__main {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .tasks__main {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .tasks__main {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tasks__main {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .tasks__main:last-of-type {
+    margin-bottom: 0;
+  }
+}

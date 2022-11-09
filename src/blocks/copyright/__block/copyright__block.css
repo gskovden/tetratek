@@ -1,0 +1,26 @@
+.copyright__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .copyright__block {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .copyright__block {
+    margin: 0 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .copyright__block {
+    flex-direction: column;
+    text-align: center;
+  }
+}

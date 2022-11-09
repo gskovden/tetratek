@@ -1,0 +1,10 @@
+.cases__consult {
+  border-bottom: 1px solid dodgerblue;
+  color: dodgerblue;
+  grid-area: consult;
+}
+
+.cases__consult:hover {
+  color:blue;
+  border-bottom: 1px solid blue;
+}

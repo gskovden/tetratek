@@ -1,0 +1,20 @@
+.tasks__subtitle {
+ font-size: 18px;
+ line-height: 1.23;
+ font-weight: 700;
+ grid-area: title;
+ margin: 0 0 20px 0;
+ text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .tasks__subtitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tasks__subtitle {
+    font-size: 16px;
+  }
+}

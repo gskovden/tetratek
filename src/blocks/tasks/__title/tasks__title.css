@@ -1,0 +1,19 @@
+.tasks__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.23;
+  margin: 40px 0 40px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .tasks__title {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .tasks__title {
+    font-size: 16px;
+  }
+}

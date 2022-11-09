@@ -1,0 +1,10 @@
+.copyright__design_link {
+  text-decoration: none;
+  color: #535353;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.copyright__design_link:hover {
+  color: violet;
+}

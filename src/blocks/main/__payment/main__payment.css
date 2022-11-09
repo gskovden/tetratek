@@ -1,0 +1,19 @@
+.main__payment {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.23;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__payment {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main__payment {
+    font-size: 14px;
+  }
+}

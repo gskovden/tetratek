@@ -1,0 +1,28 @@
+.footer__case {
+  font-size: 12px;
+  max-width: 400px;
+  text-decoration: none;
+  color:darkgrey;
+
+}
+
+.footer__case:last-child {
+  margin-bottom: 0;
+}
+
+.footer__case:hover {
+  color: rgb(255, 127, 39);
+}
+
+@media screen and (max-width: 800px) {
+  .footer__case {
+    max-width: 100%;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__case {
+    text-align: center;
+  }
+}

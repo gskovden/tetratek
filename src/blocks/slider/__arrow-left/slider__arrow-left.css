@@ -1,0 +1,28 @@
+.slider__arrow-left {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+  left: 10px;
+  top: 40%;
+  display: block;
+  background: url(../../../images/index/arrow-left.svg) no-repeat;
+}
+
+.slider__arrow-left:hover {
+  opacity: 1.0;
+}
+
+@media screen and (max-width: 500px) {
+  .slider__arrow-left {
+    top: 42%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .slider__arrow-left {
+    top: 43%;
+  }
+}

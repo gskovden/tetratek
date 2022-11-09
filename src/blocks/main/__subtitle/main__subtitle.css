@@ -1,0 +1,22 @@
+.main__subtitle {
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.23;
+  text-align: center;
+  grid-area: subtitle;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .main__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__subtitle {
+    margin-bottom: 20px;
+  }
+}

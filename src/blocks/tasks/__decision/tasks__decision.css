@@ -1,0 +1,30 @@
+.tasks__decision {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.23;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tasks__decision {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .tasks__decision {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tasks__decision {
+    font-size: 20px;
+  }
+}

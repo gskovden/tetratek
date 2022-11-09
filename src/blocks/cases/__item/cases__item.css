@@ -1,0 +1,28 @@
+.cases__item {
+  display: grid;
+  grid-template-areas: 
+  "title img"
+  "text-area text-area"
+  "consult consult";
+  grid-template-columns: 1fr auto;
+  list-style: none;
+  padding: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .cases__item {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cases__item {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cases__item {
+    padding: 5px;
+  }
+}

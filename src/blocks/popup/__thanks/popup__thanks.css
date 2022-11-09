@@ -1,0 +1,7 @@
+.popup__thanks {
+  font-size: 18px;
+  text-align: center;
+  align-self: center;
+  display: none;
+  color: rgb(255, 127, 39);
+}

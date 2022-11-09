@@ -1,0 +1,21 @@
+.tasks__block {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .tasks__block {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tasks__block {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

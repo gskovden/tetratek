@@ -1,0 +1,22 @@
+.decision__title_create {
+  text-align: end;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .decision__title_create {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  .decision__title_create {
+    margin-top: -19px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .decision__title_create {
+    margin-right: 0;
+  }
+}

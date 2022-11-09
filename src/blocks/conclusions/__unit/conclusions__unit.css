@@ -1,0 +1,26 @@
+.conclusions__unit {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border-right: 1px solid black;
+}
+
+.conclusions__unit:last-of-type {
+  border-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .conclusions__unit {
+    border-right: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+  }
+  .conclusions__unit:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .conclusions__unit {
+    grid-template-rows: auto;
+  }
+}

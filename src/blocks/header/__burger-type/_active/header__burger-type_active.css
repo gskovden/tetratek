@@ -1,0 +1,6 @@
+@media screen and (max-width: 1000px) {
+  .header__burger-type_active {
+    display: block;
+    margin-bottom: 20px;
+  }
+}

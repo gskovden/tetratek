@@ -1,0 +1,13 @@
+.slider__img {
+  width: 100%;
+  filter: brightness(70%);
+  height: 93vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media screen and (max-width: 640px) {
+  .slider__img {
+    min-height: 600px;
+  }
+}

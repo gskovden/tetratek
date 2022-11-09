@@ -1,0 +1,25 @@
+.technology__title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .technology__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .technology__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .technology__title {
+    font-size: 24px;
+  }
+}

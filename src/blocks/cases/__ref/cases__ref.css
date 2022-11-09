@@ -1,0 +1,13 @@
+.cases__ref {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.23;
+  margin-bottom: 25px;
+  grid-area: title;
+}
+
+@media screen and (max-width: 800px) {
+  .cases__ref {
+    font-size: 16px;
+  }
+}

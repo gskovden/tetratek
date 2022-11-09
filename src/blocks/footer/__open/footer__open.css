@@ -1,0 +1,9 @@
+.footer__open {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__open {
+    display: block;
+  }
+}

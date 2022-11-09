@@ -1,0 +1,9 @@
+.news {
+  font-size: 28px;
+  font-weight: 400;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 150px;
+  min-height: 100vh;
+}

@@ -1,0 +1,19 @@
+.tasks__image {
+  width: 60px;
+  height: 60px;
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .tasks__image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tasks__image {
+    width: 70px;
+    height: 70px;
+  }
+}

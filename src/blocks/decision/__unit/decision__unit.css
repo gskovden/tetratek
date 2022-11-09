@@ -1,0 +1,14 @@
+.decision__unit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .decision__unit {
+    margin-right: 0;
+    align-self: center;
+  }
+}

@@ -1,0 +1,14 @@
+.contacts__name {
+  color:dodgerblue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.23;
+  align-self: flex-start;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .contacts__name {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,6 @@
+.main__cooperation {
+  grid-area: cooperation;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

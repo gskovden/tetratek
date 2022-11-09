@@ -1,0 +1,15 @@
+.header__consult {
+  border: 1px solid white;
+  border-radius: 100px;
+  background-color: aliceblue;
+  color: black;
+  padding: 1px 4px 1px 4px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header__consult:hover {
+  background-color: #2A2C2F;
+  color: white;
+}

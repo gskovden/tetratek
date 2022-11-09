@@ -1,0 +1,18 @@
+.form__submit {
+  background-color: rgb(255, 127, 39);
+  width: 100%;
+  text-align: center;
+  border-radius: 100px;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+.form__submit:hover {
+  opacity: 0.8;
+}

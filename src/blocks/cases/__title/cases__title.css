@@ -1,0 +1,28 @@
+.cases__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.23;
+  align-self: center;
+  text-transform: uppercase;
+  justify-self: center;
+  grid-area: cases-title;
+  margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .cases__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cases__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cases__title {
+    font-size: 24px;
+  }
+}

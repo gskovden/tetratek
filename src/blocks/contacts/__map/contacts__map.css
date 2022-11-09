@@ -1,0 +1,21 @@
+.contacts__map {
+  justify-self: end;
+  align-self: center;
+  grid-area: map;
+  width: 90%;
+  height: 500px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1160px) {
+  .contacts__map {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contacts__map {
+    height: 300px;
+  }
+}

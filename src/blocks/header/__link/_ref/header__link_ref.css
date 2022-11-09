@@ -1,0 +1,18 @@
+.header__link_ref {
+  text-decoration: none;
+  color: white;
+  min-height: 100%;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+  position: relative;
+  top: 30%;
+}
+
+.header__link_ref:hover {
+  color: rgb(255, 127, 39);
+}
+
+.header__link_ref[aria-current="page"] {
+  color: #ff7f27;
+}

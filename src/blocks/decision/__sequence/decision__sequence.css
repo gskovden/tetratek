@@ -1,0 +1,5 @@
+.decision__sequence {
+  color: black;
+  display: flex;
+  flex-direction: row;
+}

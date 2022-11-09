@@ -1,0 +1,19 @@
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__item {
+    grid-area: contacts;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__item {
+    width: 100%;
+  }
+}

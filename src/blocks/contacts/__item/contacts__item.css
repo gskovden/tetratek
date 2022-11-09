@@ -1,0 +1,8 @@
+.contacts__item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}

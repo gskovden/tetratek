@@ -1,0 +1,11 @@
+.footer__case_main {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__case_main {
+    text-align: center;
+  }
+}

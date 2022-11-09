@@ -1,0 +1,21 @@
+.contacts__text {
+  text-decoration: none;
+  color: black;
+  margin: 0 0 0 5px;
+}
+
+.contacts__text:hover {
+  color: rgb(255, 127, 39);
+}
+
+@media screen and (max-width: 800px) {
+  .contacts__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__text {
+    font-size: 14px;
+  }
+}

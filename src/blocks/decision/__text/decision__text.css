@@ -1,0 +1,50 @@
+.decision__text {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .decision__text {
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 58px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .decision__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 606px) {
+  .decision__text {
+    margin-top: 47px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .decision__text {
+    margin-top: 57px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .decision__text {
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .decision__text {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .decision__text {
+    margin-top: 32px;
+  }
+}

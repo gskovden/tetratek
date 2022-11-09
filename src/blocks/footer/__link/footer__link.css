@@ -1,0 +1,14 @@
+.footer__link {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color:darkgrey;
+}
+
+.footer__link:last-child {
+  margin-bottom: 0;
+}
+
+.footer__link:hover {
+  color: rgb(255, 127, 39);
+}

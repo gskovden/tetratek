@@ -1,0 +1,10 @@
+.decision__open {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .decision__open {
+    display: flex;
+    flex-direction: column;
+  }
+}

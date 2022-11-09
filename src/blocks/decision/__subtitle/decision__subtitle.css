@@ -1,0 +1,22 @@
+.decision__subtitle {
+  font-size: 16px;
+  margin: 0 40px 0 0;
+  width: 180px;
+  text-align: center;
+}
+
+.decision__subtitle:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .decision__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .decision__subtitle {
+    width: 100px;
+  }
+}

@@ -1,0 +1,12 @@
+.conclusions__block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .conclusions__block {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

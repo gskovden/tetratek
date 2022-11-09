@@ -1,0 +1,11 @@
+.slider__cases {
+  /* visibility: hidden; */
+  position: absolute;
+  top: 0;
+  left: 361.51px;
+  background-color: white;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+}

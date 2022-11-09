@@ -1,0 +1,17 @@
+.form__title {
+  font-weight: 400;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .form__title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form__title {
+    font-size: 20px;
+  }
+}

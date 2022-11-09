@@ -1,0 +1,5 @@
+.cases__pic {
+  height: 50px;
+  width: 50px;
+  grid-area: img;
+}

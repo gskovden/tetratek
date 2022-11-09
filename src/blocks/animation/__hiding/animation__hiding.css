@@ -1,0 +1,4 @@
+.animation_hiding .loading {
+  transition: 0.3s opacity;
+  opacity: 0;
+}

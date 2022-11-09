@@ -1,0 +1,11 @@
+.conclusions__text {
+  font-size: 18px;
+  line-height: 1.23;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .conclusions__text {
+    font-size: 16px;
+  }
+}
