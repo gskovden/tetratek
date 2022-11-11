@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 432px) {
   .slider__text {
     top: 230px;
   }

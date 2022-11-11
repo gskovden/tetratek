@@ -134,6 +134,7 @@
 @import url(../blocks/tasks/__arrow/tasks__arrow.css);
 @import url(../blocks/tasks/__decision/tasks__decision.css);
 @import url(../blocks/tasks/__main/tasks__main.css);
+@import url(../blocks/tasks/__unit/tasks__unit.css);
 @import url(../blocks/decision/decision.css);
 @import url(../blocks/decision/__sequence/decision__sequence.css);
 @import url(../blocks/decision/__title/decision__title.css);

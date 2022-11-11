@@ -52,3 +52,9 @@
     margin-right: 25px;
   }
 }
+
+@media screen and (max-width: 432px) {
+  .slider__subtitle {
+    top: 160px;
+  }
+}

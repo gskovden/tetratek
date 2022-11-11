@@ -23,6 +23,20 @@ function burger() {
 
 burger();
 
+//плавная прокрутка
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+for (let anchor of anchors) {
+	anchor.addEventListener('click', function(e) {
+		e.preventDefault();
+		const blockID = anchor.getAttribute('href');
+		document.querySelector('' + blockID).scrollIntoView({
+			behavior: "smooth",
+			block: "start"
+		})
+	})
+}
+
 //функция открытия попапов
 function openPopup() {
   popup.classList.add('popup_opened');

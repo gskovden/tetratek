@@ -3,7 +3,7 @@
   max-width: 400px;
   text-decoration: none;
   color:darkgrey;
-
+  list-style: disc;
 }
 
 .footer__case:last-child {

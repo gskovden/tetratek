@@ -1,6 +1,6 @@
 .footer__link {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 18px;
   text-decoration: none;
   color:darkgrey;
 }
@@ -11,4 +11,10 @@
 
 .footer__link:hover {
   color: rgb(255, 127, 39);
+}
+
+@media screen and (max-width: 800px) {
+  .footer__link {
+    font-size: 16px;
+  }
 }
