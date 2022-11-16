@@ -79,11 +79,7 @@
 @import url(../blocks/slider/__dots/slider__dots.css);
 @import url(../blocks/slider/__img/slider__img.css);
 @import url(../blocks/slider/__link/slider__link.css);
-@import url(../blocks/slider/__cases/slider__cases.css);
-@import url(../blocks/slider/__cases/_active/slider__cases_active.css);
-@import url(../blocks/slider/__case/slider__case.css);
-@import url(../blocks/slider/__case/_ref/slider__case_ref.css);
-@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/_hidden/slider_hidden.css);
 @import url(../blocks/cases/cases.css);
 @import url(../blocks/cases/__item/cases__item.css);
 @import url(../blocks/cases/__link/cases__link.css);

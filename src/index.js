@@ -9,6 +9,7 @@ const closeButton = document.querySelector('.popup__close-button');
 const mailSended = document.querySelector('.form__thanks');
 const mailSendedPopup = document.querySelector('.popup__thanks');
 const popupForm = document.forms["popup-form"];
+const slider = document.querySelector('.slider');
 
 //бургер меню
 function burger() {
@@ -18,6 +19,7 @@ function burger() {
 	burgerButton.addEventListener('click', function() {
 		burgerButton.classList.toggle('header__burger-btn_active');
 		headerBurger.classList.toggle('header__burger-type_active');
+		slider.classList.toggle('slider_hidden');
 	});
 }
 
