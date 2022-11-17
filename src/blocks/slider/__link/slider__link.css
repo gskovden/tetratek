@@ -38,3 +38,9 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 386px) {
+  .slider__link {
+    top: 420px;
+  }
+}

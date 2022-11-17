@@ -1,6 +1,17 @@
 .cases {
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px 100px 25px 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cases {
+    margin: 25px 50px 25px 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cases {
+    margin: 25px 25px 25px 25px;
+  }
 }

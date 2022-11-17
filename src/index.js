@@ -9,7 +9,9 @@ const closeButton = document.querySelector('.popup__close-button');
 const mailSended = document.querySelector('.form__thanks');
 const mailSendedPopup = document.querySelector('.popup__thanks');
 const popupForm = document.forms["popup-form"];
-const slider = document.querySelector('.slider');
+const footer = document.querySelector('.footer');
+const copyright = document.querySelector('.copyright');
+const content = document.querySelector('.content');
 
 //бургер меню
 function burger() {
@@ -19,7 +21,9 @@ function burger() {
 	burgerButton.addEventListener('click', function() {
 		burgerButton.classList.toggle('header__burger-btn_active');
 		headerBurger.classList.toggle('header__burger-type_active');
-		slider.classList.toggle('slider_hidden');
+		footer.classList.toggle('footer_hidden');
+		copyright.classList.toggle('copyright_hidden');
+		content.classList.toggle('content_hidden');
 	});
 }
 

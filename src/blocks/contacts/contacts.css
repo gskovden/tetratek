@@ -5,10 +5,14 @@
   "address map"
   "form map";
   grid-template-columns: 1fr 1fr;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  width: 100%;
+  margin: 25px 100px 25px 100px;
   min-height: calc(100vh - 50px);
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts {
+    margin: 25px 50px 25px 50px;
+  }
 }
 
 @media screen and (max-width: 1160px) {
@@ -19,5 +23,11 @@
     "map"
     "form";
     grid-template-columns: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contacts {
+    margin: 25px 25px 25px 25px;
   }
 }
