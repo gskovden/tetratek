@@ -2,7 +2,7 @@ import './pages/index.css';
 import Inputmask from "../inputmask.es6.js";
 
 const popup = document.querySelector('.popup');
-const getConsult = document.querySelector('.header__consult');
+const getConsult = document.querySelector('.header__item');
 const orderCase = document.querySelectorAll('.cases__block');
 const getConsultBurger = document.querySelector('.header__consult_burger');
 const closeButton = document.querySelector('.popup__close-button');

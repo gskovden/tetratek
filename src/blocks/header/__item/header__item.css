@@ -1,0 +1,15 @@
+.header__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: white;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  color: black;
+}
+
+.header__item:hover {
+  background-color: rgb(255, 127, 39);
+  color: white;
+}
