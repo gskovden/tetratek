@@ -1,11 +1,5 @@
 .header__logo-area {
   display: flex;
+  flex-direction: row;
   align-items: center;
-}
-
-@media screen and (max-width: 1000px) {
-  .header__logo-area {
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
 }

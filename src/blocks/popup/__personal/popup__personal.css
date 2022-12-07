@@ -1,0 +1,9 @@
+.popup__personal {
+  text-decoration: none;
+  color: #f29d00;
+  cursor: pointer;
+}
+
+.popup__personal:hover {
+  opacity: .8;
+}

@@ -14,11 +14,12 @@
   height: fit-content;
   width: fit-content;
   z-index: 100;
+  border: 1px solid white;
+  background-color: #f29d00;
 }
 
 .slider__link:hover {
-  color: rgb(255, 127, 39);
-  border: 2px solid rgb(255, 127, 39);
+  opacity: .8;
 }
 
 @media screen and (max-width: 1400px) {
@@ -30,12 +31,6 @@
 @media screen and (max-width: 1200px) {
   .slider__link {
     top: 380px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .slider__link {
-    font-size: 14px;
   }
 }
 

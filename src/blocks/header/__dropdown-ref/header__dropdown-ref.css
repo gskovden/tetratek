@@ -1,15 +1,11 @@
 .header__dropdown-ref {
   margin: 0;
   padding: 0;
-  position: relative;
   color: white;
   text-decoration: none;
-}
-
-.header__dropdown-ref:last-of-type {
-  border-bottom: none;
+  width: fit-content;
 }
 
 .header__dropdown-ref:hover {
-  color: rgb(255, 127, 39);
+  color: black;
 }

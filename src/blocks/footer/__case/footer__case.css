@@ -11,7 +11,7 @@
 }
 
 .footer__case:hover {
-  color: rgb(255, 127, 39);
+  color: #f29d00;
 }
 
 @media screen and (max-width: 800px) {

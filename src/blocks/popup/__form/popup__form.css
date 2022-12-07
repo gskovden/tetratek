@@ -22,8 +22,26 @@
 
 @media screen and (max-width: 768px) {
   .popup__form {
-      width: 282px;
+      width: 370px;
       left: 0;
       bottom: 0;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .popup__form {
+      width: 320px;
+  } 
+}
+
+@media screen and (max-width: 410px) {
+  .popup__form {
+      width: 282px;
+  } 
+}
+
+@media screen and (max-width: 360px) {
+  .popup__form {
+      width: 242px;
   } 
 }

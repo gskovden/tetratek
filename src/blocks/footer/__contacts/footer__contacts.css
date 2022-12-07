@@ -9,8 +9,6 @@
 
 @media screen and (max-width: 600px) {
   .footer__contacts {
-    align-items: center;
-    margin-bottom: 20px;
-    text-align: center;
+    display: none;
   }
 }

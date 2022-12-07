@@ -1,5 +1,5 @@
 .footer__main {
-  padding: 20px 100px 20px 100px;
+  padding: 40px 100px 20px 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 1400px) {
   .footer__main {
-    padding: 20px 50px 20px 50px;
+    padding: 40px 50px 20px 50px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .footer__main {
-    padding: 20px 25px 20px 25px;
+    padding: 40px 25px 20px 25px;
   }
 }
 

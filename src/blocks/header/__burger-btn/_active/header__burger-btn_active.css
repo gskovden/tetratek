@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
   .header__burger-btn_active span:nth-of-type(1) {
     display: none;
   }

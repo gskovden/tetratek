@@ -1,0 +1,12 @@
+.footer__politics {
+  font-size: 14px;
+  text-decoration: none;
+  color: #a9a9a9;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__politics {
+    text-align: center;
+  }
+}

@@ -1,9 +1,8 @@
 .header__consult_burger {
-  border: 1px solid white;
-  border-radius: 100px;
-  background-color: aliceblue;
-  color: black;
-  padding: 1px 4px;
+  border-radius: 10px;
+  background-color: #f29d00;
+  color: white;
+  padding: 10px;
   transition: all 300ms ease-in-out;
   cursor: pointer;
   text-align: center;
@@ -11,12 +10,18 @@
 }
 
 .header__consult_burger:hover {
-  background-color: rgb(255, 127, 39);
+  background-color: #f29d00;
   color: white; 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .header__consult_burger {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__consult_burger {
+    font-size: 18px;
   }
 }

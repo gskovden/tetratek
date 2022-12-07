@@ -12,6 +12,7 @@ const popupForm = document.forms["popup-form"];
 const footer = document.querySelector('.footer');
 const copyright = document.querySelector('.copyright');
 const content = document.querySelector('.content');
+const logoArea = document.querySelector('.header__logo-area');
 
 //бургер меню
 function burger() {
@@ -22,8 +23,11 @@ function burger() {
 		burgerButton.classList.toggle('header__burger-btn_active');
 		headerBurger.classList.toggle('header__burger-type_active');
 		footer.classList.toggle('footer_hidden');
+		logoArea.classList.toggle('header__logo-area_hidden');
 		copyright.classList.toggle('copyright_hidden');
-		content.classList.toggle('content_hidden');
+		if (content) {
+			content.classList.toggle('content_hidden');
+		}
 	});
 }
 
@@ -85,7 +89,7 @@ if (popupForm) {
 function popupFormCheck(e) {
   e.preventDefault(); // блокируем input
   popupFormSubmit(); // если правильно - отправляем данные
-  popupThanks(); //благодарим за обращение
+  popupThanks(); // благодарим за обращение
 }
 
 async function popupFormSubmit() {
@@ -267,7 +271,7 @@ Sim.prototype.dotOn = function(num) {
 
 Sim.prototype.dotOff = function(num) {
 	this.indicatorDotsAll[num].style.cssText =
-             'background-color:rgb(255, 127, 39); cursor:default;'
+             'background-color:#f29d00; cursor:default;'
 };
 
 Sim.initialize = function(that) {

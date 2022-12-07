@@ -1,7 +1,7 @@
 .slider__img {
   width: 100%;
   filter: brightness(70%);
-  height: 93vh;
+  height: 95vh;
   object-fit: cover;
   z-index: 1;
 }

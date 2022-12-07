@@ -5,7 +5,7 @@
   min-height: 50px;
   margin: 48px 0 37px 36px;
   padding: 0;
-  background-color: #2A2C2F;
+  background-color: #f29d00;
   border: none;
   border-radius: 100px;
   color: white;
@@ -17,7 +17,6 @@
 }
 
 .popup__submit-button:hover {
-  background-color: #2A2C2F;
   opacity: 0.8;
   cursor: pointer;
 }
@@ -27,8 +26,26 @@
       width: 238px;
       min-height: 46px;
       margin-top: 45px;
-      margin-left: 22px;
+      margin-left: 66px;
       margin-bottom: 25px;
       font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .popup__submit-button {
+      margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .popup__submit-button {
+      margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .popup__submit-button {
+      width: 200px;
   }
 }

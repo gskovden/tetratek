@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .cases__part {
     grid-template-columns: 1fr;
   }

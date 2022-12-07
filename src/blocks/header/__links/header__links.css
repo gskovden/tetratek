@@ -2,8 +2,15 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 0;
   padding: 0;
   min-height: 100%;
   position: relative;
+}
+
+@media screen and (max-width: 950px) {
+  .header__links {
+    display: none;
+  }
 }

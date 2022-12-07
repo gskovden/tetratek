@@ -79,6 +79,11 @@ module.exports = {
         favicon: "./src/images/logo/logo.ico"
       }),
       new HtmlWebpackPlugin({  // Also generate a .html
+        filename: 'privacy.html',
+        template: 'src/privacy.html',
+        favicon: "./src/images/logo/logo.ico"
+      }),
+      new HtmlWebpackPlugin({  // Also generate a .html
         filename: 'template_mail.html',
         template: 'src/template_mail.html'
       }),

@@ -3,3 +3,9 @@
   font-size: 12px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .copyright__design {
+    display: none;
+  }
+}

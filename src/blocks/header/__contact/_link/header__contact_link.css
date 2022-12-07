@@ -4,5 +4,11 @@
 }
 
 .header__contact_link:hover {
-  color: rgb(255, 127, 39);
+  color: #f29d00;
+}
+
+@media screen and (max-width: 550px) {
+  .header__contact_link {
+    margin: 10px 25px;
+  }
 }

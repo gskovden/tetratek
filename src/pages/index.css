@@ -27,9 +27,13 @@
 @import url(../blocks/header/__contact/_link/header__contact_link.css);
 @import url(../blocks/header/__img/header__img.css);
 @import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__design/header__design.css);
+@import url(../blocks/header/__design/_link/header__design_link.css);
+@import url(../blocks/header/__logo-area/_burger/header__logo-area_burger.css);
+@import url(../blocks/header/__title/_burger/header__title_burger.css);
+@import url(../blocks/header/__logo-area/_hidden/header__logo-area_hidden.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__header/logo__header.css);
-@import url(../blocks/logo/__footer/logo__footer.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__case/footer__case.css);
 @import url(../blocks/footer/__case/_main/footer__case_main.css);
@@ -40,7 +44,6 @@
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__main/footer__main.css);
 @import url(../blocks/footer/__item/footer__item.css);
@@ -50,6 +53,7 @@
 @import url(../blocks/footer/__hide/footer__hide.css);
 @import url(../blocks/footer/__open/footer__open.css);
 @import url(../blocks/footer/_hidden/footer_hidden.css);
+@import url(../blocks/footer/__politics/footer__politics.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/_hidden/content_hidden.css);
 @import url(../blocks/main/main.css);
@@ -117,6 +121,8 @@
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__thanks/form__thanks.css);
 @import url(../blocks/form/__thanks/_opened/form__thanks_opened.css);
+@import url(../blocks/form/__caption/form__caption.css);
+@import url(../blocks/form/__personal/form__personal.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__container/popup__container.css);
@@ -128,6 +134,10 @@
 @import url(../blocks/popup/__form/_sending/popup__form_sending.css);
 @import url(../blocks/popup/__thanks/popup__thanks.css);
 @import url(../blocks/popup/__thanks/_opened/popup__thanks_opened.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__personal/popup__personal.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__subtitle/popup__subtitle.css);
 @import url(../blocks/tasks/tasks.css);
 @import url(../blocks/tasks/__block/tasks__block.css);
 @import url(../blocks/tasks/__item/tasks__item.css);
@@ -172,3 +182,8 @@
 @import url(../blocks/loading/loading.css);
 @import url(../blocks/loading/__content/loading__content.css);
 @import url(../blocks/loading/__text/loading__text.css);
+@import url(../blocks/politics/politics.css);
+@import url(../blocks/politics/__item/politics__item.css);
+@import url(../blocks/politics/__list/politics__list.css);
+@import url(../blocks/politics/__main/politics__main.css);
+@import url(../blocks/politics/__title/politics__title.css);

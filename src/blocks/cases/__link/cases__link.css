@@ -1,12 +1,12 @@
 .cases__link {
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 25px;
   grid-area: text-area;
 }
 
 @media screen and (max-width: 800px) {
   .cases__link {
-    font-size: 14px;
+    font-size: 16px;
   }
 }

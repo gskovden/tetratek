@@ -1,0 +1,8 @@
+@media screen and (max-width: 950px) {
+  .header__logo-area_burger {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+}
