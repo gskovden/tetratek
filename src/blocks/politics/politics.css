@@ -3,3 +3,9 @@
   flex-direction: column;
   margin: 50px;
 }
+
+@media screen and (max-width: 1000px) {
+  .politics {
+    margin: 25px;
+  }
+}
