@@ -12,6 +12,7 @@ const popupForm = document.forms["popup-form"];
 const footer = document.querySelector('.footer');
 const copyright = document.querySelector('.copyright');
 const content = document.querySelector('.content');
+const politics = document.querySelector('.politics');
 const logoArea = document.querySelector('.header__logo-area');
 
 //бургер меню
@@ -25,6 +26,9 @@ function burger() {
 		footer.classList.toggle('footer_hidden');
 		logoArea.classList.toggle('header__logo-area_hidden');
 		copyright.classList.toggle('copyright_hidden');
+		if (politics) {
+			politics.classList.toggle('politics__hidden');
+		}
 		if (content) {
 			content.classList.toggle('content_hidden');
 		}

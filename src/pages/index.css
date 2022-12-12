@@ -6,6 +6,7 @@
 @import url(../blocks/header/__link/_ref/header__link_ref.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_burger/header__logo_burger.css);
 @import url(../blocks/header/__consult/header__consult.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__main/header__main.css);
@@ -76,6 +77,7 @@
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__block/copyright__block.css);
 @import url(../blocks/copyright/__title/copyright__title.css);
+@import url(../blocks/copyright/__subtitle/copyright__subtitle.css);
 @import url(../blocks/copyright/__design/copyright__design.css);
 @import url(../blocks/copyright/__design/_link/copyright__design_link.css);
 @import url(../blocks/copyright/_hidden/copyright_hidden.css);
@@ -187,3 +189,4 @@
 @import url(../blocks/politics/__list/politics__list.css);
 @import url(../blocks/politics/__main/politics__main.css);
 @import url(../blocks/politics/__title/politics__title.css);
+@import url(../blocks/politics/__hidden/politics__hidden.css);
