@@ -4,6 +4,7 @@
       url('../fonts/NotoSans-Regular.woff') format('woff');
   font-family: 'NotoSans';
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
       url('../fonts/NotoSans-Bold.woff') format('woff');
   font-family: 'NotoSans';
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
@@ -20,4 +22,5 @@
       url('../fonts/NotoSans-Black.woff') format('woff');
   font-family: 'NotoSans';
   font-weight: 900;
+  font-display: swap;
 }

@@ -14,12 +14,13 @@ const copyright = document.querySelector('.copyright');
 const content = document.querySelector('.content');
 const politics = document.querySelector('.politics');
 const logoArea = document.querySelector('.header__logo-area');
+const form = document.getElementById("form");
+const slider = document.querySelector(".slider");
+const burgerButton = document.querySelector('.header__burger-btn');
+const headerBurger = document.querySelector('.header__burger-type');
 
 //бургер меню
 function burger() {
-	const burgerButton = document.querySelector('.header__burger-btn');
-	const headerBurger = document.querySelector('.header__burger-type');
-	
 	burgerButton.addEventListener('click', function() {
 		burgerButton.classList.toggle('header__burger-btn_active');
 		headerBurger.classList.toggle('header__burger-type_active');
@@ -85,93 +86,52 @@ let selector = document.querySelectorAll('input[type="tel"]');
 let im = new Inputmask('+7 (999) 999-99-99');
 im.mask(selector);
 
-//отправка формы с попапа
-if (popupForm) {
-  popupForm.addEventListener("submit", popupFormCheck);
-}
-
-function popupFormCheck(e) {
-  e.preventDefault(); // блокируем input
-  popupFormSubmit(); // если правильно - отправляем данные
-  popupThanks(); // благодарим за обращение
-}
-
-async function popupFormSubmit() {
-  const popupData = popupSerializeForm(popupForm); // получаем данные формы
-  const response = await popupSendData(popupData); // отправляем данные на почту
-  if (response.ok) {
-    popupFormReset(); // сбрасываем поля формы
-  } else {
-    alert("Код ошибки: " + response.status); // если not OK - показываем код ошибки
-  }
-}
-
-function popupSerializeForm() {
-  // формируем данные формы
-  return new FormData(popupForm);
-}
-
-async function popupSendData(popupData) {
-  return await fetch("sendmail.php", {
-    // отправляем в скрипт sendmail.php
-    method: "POST", // методом POST
-    body: popupData,
-  });
-}
-
-// сброс полей формы
-function popupFormReset() {
-  popupForm.reset();
-  }
-
 // благодарим за обращение
+const contactThanks = function() {
+  mailSended.classList.add('form__thanks_opened');
+}
+
 const popupThanks = function() {
   mailSendedPopup.classList.add('popup__thanks_opened');
 }
 
-//отправка формы с контактов
-const contactForm = document.forms["contact-form"];
-if (contactForm) {
-  contactForm.addEventListener("submit", contactFormCheck);
-}
+//отправка формы
+document.getElementById("popup-form").addEventListener("submit", function (event) {
+  event.preventDefault();
 
-function contactFormCheck(e) {
-  e.preventDefault(); // блокируем input
-  contactFormSubmit(); // если правильно - отправляем данные
-  contactThanks(); //благодарим за обращение
-}
+  const serviceID = "service_yrbmh46";
+  const templateID = "template_yha8z6g";
 
-async function contactFormSubmit() {
-  const contactData = contactSerializeForm(contactForm); // получаем данные формы
-  const response = await contactSendData(contactData); // отправляем данные на почту
-  if (response.ok) {
-    contactFormReset(); // сбрасываем поля формы
-  } else {
-    alert("Код ошибки: " + response.status); // если not OK - показываем код ошибки
-  }
-}
+  emailjs.sendForm(serviceID, templateID, this).then(
+    () => {
+      document.querySelector(".popup__input").value = "";
+			popupThanks();
+    },
+    (err) => {
+      alert(JSON.stringify(err));
+    }
+  );
+});
 
-function contactSerializeForm() {
-  // формируем данные формы
-  return new FormData(contactForm);
-}
-
-async function contactSendData(contactData) {
-  return await fetch("sendmail.php", {
-    // отправляем в скрипт sendmail.php
-    method: "POST", // методом POST
-    body: contactData,
-  });
-}
-
-// сброс полей формы
-function contactFormReset() {
-  contactForm.reset();
-  }
-
-// благодарим за обращение
-const contactThanks = function() {
-  mailSended.classList.add('form__thanks_opened');
+if (form) {
+	form.addEventListener("submit", function (event) {
+		event.preventDefault();
+	
+		const serviceID = "service_yrbmh46";
+		const templateID = "template_yha8z6g";
+	
+		emailjs.sendForm(serviceID, templateID, this).then(
+			() => {
+				document.querySelector("#name").value = "";
+				document.querySelector("#email").value = "";
+				document.querySelector("#message").value = "";
+				contactThanks();
+			},
+			(err) => {
+				alert(JSON.stringify(err));
+			}
+		);
+	});
 }
 
 //анимация при загрузке
@@ -185,7 +145,8 @@ window.onload = function () {
 
 // выделение активного меню
 document.querySelectorAll('.header__link_ref').forEach(link => {
-  if(link.href === window.location.href){
+	const newLink = link.href.replace('.html', '');
+  if(newLink === window.location.href) {
     link.setAttribute('aria-current', 'page')
   }
 })
@@ -202,12 +163,12 @@ function Sim(sldrId) {
 	};
 
 	// Slider objects
-	this.sldrList = this.sldrRoot.querySelector('.slider__list');
-	this.sldrElements = this.sldrList.querySelectorAll('.slider__element');
-	this.sldrElemFirst = this.sldrList.querySelector('.slider__element');
-	this.leftArrow = this.sldrRoot.querySelector('.slider__arrow-left');
-	this.rightArrow = this.sldrRoot.querySelector('.slider__arrow-right');
-	this.indicatorDots = this.sldrRoot.querySelector('.slider__dots');
+		this.sldrList = this.sldrRoot.querySelector('.slider__list');
+		this.sldrElements = this.sldrList.querySelectorAll('.slider__element');
+		this.sldrElemFirst = this.sldrList.querySelector('.slider__element');
+		this.leftArrow = this.sldrRoot.querySelector('.slider__arrow-left');
+		this.rightArrow = this.sldrRoot.querySelector('.slider__arrow-right');
+		this.indicatorDots = this.sldrRoot.querySelector('.slider__dots');
 
 	// Initialization
 	this.options = Sim.defaults;
@@ -371,5 +332,6 @@ Sim.initialize = function(that) {
 	}
 };
 
-new Sim();
-
+if (slider) {
+	new Sim();
+}

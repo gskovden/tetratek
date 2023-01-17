@@ -83,17 +83,9 @@ module.exports = {
         template: 'src/privacy.html',
         favicon: "./src/images/logo/logo.ico"
       }),
-      new HtmlWebpackPlugin({  // Also generate a .html
-        filename: 'template_mail.html',
-        template: 'src/template_mail.html'
-      }),
       new MiniCssExtractPlugin(), // подключение плагина для объединения файлов
       new CopyWebpackPlugin({
         patterns: [
-            {
-                from: __dirname + '/src/sendmail.php', // откуда
-                to: __dirname + '/dist' // куда
-            },
             {
               from: __dirname + '/inputmask.es6.js', // откуда
               to: __dirname + '/dist' // куда
